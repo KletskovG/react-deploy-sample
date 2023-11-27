@@ -55,6 +55,11 @@ Update nginx config
 Add docker
 Build project in CI (Github actions)
 On VPS just pull image and restart docker
+You can build docker images locally, push to docker HUB and pull in  your VPS, or you can do it on your VPS
+
+# Deploy V3
+Add Github Actions and automate build and push of docker images
+Connect to VPS and pull images
 
 # Next steps
 * Connect domain to your VPS (Use [DNS](https://ru.wikipedia.org/wiki/DNS))
