@@ -8,8 +8,6 @@ Create account in one of popular cloud providers
 - [Google Cloud Compute](https://cloud.google.com/)
 - [Amazon Web Services](https://aws.amazon.com)
 
-// TODO: Slide - Mention Educatoinal programs
-
 Warning - depends on your cloud provider you can face problems with firewall and private cloud subnets. In this guide we will skip this section. For example - in Digital Ocean and Yandex Cloud you will not face such kind of problems.
 
 # Generate SSH keys
@@ -35,7 +33,7 @@ For basic project minimum configuration (for example 1GB RAM 1 vCPU) is OK.
 
 # Install required packages into system
 Connect to your VPS with IP and ssh-keys
-* Nodejs ([NVM](https://github.com/nvm-sh/nvm#installing-and-updating) recomended), **// TODO: Slides** - (`wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash`)
+* Nodejs ([NVM](https://github.com/nvm-sh/nvm#installing-and-updating) recomended)
 * [Docker](https://www.docker.com/) **// TODO: Slides** (sudo snap install docker)
 * [nginx](https://nginx.org/) **// TODO: Slides** (sudo apt install nginx-core)
 
